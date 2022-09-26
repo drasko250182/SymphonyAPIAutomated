@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Symphony Suite">
+    <groups>
+        <run>
+            <include name="Smoke"/>
+        </run>
+    </groups>
+    <test name="Test Basics 1">
+
+
+        <classes>
+            <class name="com.symphony.api.tests.SignupTests"/>
+            <class name="com.symphony.api.tests.LoginTests"/>
+            <class name="com.symphony.api.tests.PostsTests"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <!--<listeners>
+        <listener class-name="Reporter.ExtentReporterNG"></listener>
+    </listeners>-->
+
+
+</suite> <!-- Suite -->
